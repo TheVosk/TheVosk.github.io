@@ -29,7 +29,7 @@ function submitFeedback() {
 
   // Show thank-you message
   msg.style.display = "block";
-  msg.textContent = `Thanks, ${name}! Your feedback has been received. 🐦`;
+  msg.textContent = `Thanks, ${name}! Your feedback has been (not)received. 🐦`;
 
   // Clear the form fields
   document.getElementById("name").value = "";
